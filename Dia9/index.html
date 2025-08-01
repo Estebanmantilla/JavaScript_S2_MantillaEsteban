@@ -3,17 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Pokedex</title>
     <link rel="stylesheet" href="./styles/style.css">
 </head>
 <body>
+    <h1>Pokedex</h1>
     <div class="pokedex" id="pokedexi">
-        <input id="holi" class="inputlindo" placeholder="Id o nombre del pokemon" type="text">
-        <div class="boton">
-            <button id="atra" class="botonsito">Anterior</button>
-            <button id="adelante" class="botonsito">Siguiente</button>
-        </div>
+        <img src="#" alt="" class="pokei" id="pokeii"/>
+        <h1>
+            <span id="posicion"></span>
+            <span class="nombrepo" id="nombrepoo"></span>
+        </h1>
+        
         <img src="./images/pokedex.png" alt="">
+        <form id="form" onsubmit="return false">
+        <input type="text" class="inputlindo" id="buscador" placeholder="ID o nombre">
+        </form>
+        <div class="boton">
+            <button onclick="" id="atra" class="botonsito">Anterior<</button>
+            <button onclick="" id="adelante" class="botonsito">Siguiente></button>
+        </div>
+        
     </div>
 </body>
 <script src="./scripts/script.js"></script>

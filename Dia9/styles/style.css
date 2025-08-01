@@ -18,24 +18,46 @@ img{
     height: 80vh;
     width: auto;
 }
-
-
+.pokedex{
+    position: relative;
+    display: inline-block;
+}
 .inputlindo{
     position: absolute;
-    left: 190px;
-    top: 1100px;
-    width: 700px;
-    height: 100px;
-    
+    top: 320px;
+    left: 70px;
+    padding: 10px;
+    outline: black;
+    border: 2px solid #333;
+    border-radius: 5px;
+    font-weight: 600;
+    box-shadow: -3px 4px 0 #888, -5px 7px 0 #333;
 }
 .boton{
     position: absolute;
-    left: 190px;
-    top: 1300px;
+    top: 380px;
+    left: 70px;
+    
 }
-
-.pokedex{
-    display: inline-block;
-    position: relative;
+.botonsito{
+   padding: 10px;
+   margin-right: 20px;
+   border-radius: 5px;
+   color: white;
+    box-shadow: -2px 3px 0 #222, -4px 6px #000;
+    background-color: #444;
+}
+.pokedex h1{
+    position: absolute;
+    top: 259px;
+    left: 125px;
+    font-size: 1.7rem;
+}
+.boton button:hover{
+    cursor: url(../images/favicon-16x16.png), auto;
+}
+.pokei{
+    position: absolute;
+    
 }
 

@@ -10,10 +10,12 @@ body{
     position: relative;
     text-align: center;
     margin: 20px;
-    background-image: url(../img/istockphoto-1206505233-612x612.jpg);
+    background-image: url(../img/pngegg.png);
+    background-size: cover;
 }
 h1{
-    font-size: 60px;  
+    font-size: 60px;
+    color: rgb(153, 255, 0);  
 }
 .botones button{
     position: absolute;
@@ -21,15 +23,11 @@ h1{
     font-size: 25px;
     cursor: pointer;
 }
-
 .Rules{
     top: 200px;
     left: 520px;
     width: 200px;
     height: 60px;
-    
-
-
 }
 .play{
     top: 400px;
@@ -38,6 +36,28 @@ h1{
     height: 60px;
 }
 button:active{
-    background-color: aquamarine;
+    background-color: rgb(153, 255, 0);
 }
+h2{
+    color: white;
+}
+.volver{
+ cursor: pointer;
+ padding: 10px;
+}
+label{
+    color: white;
+    font-size: 30px;
+}
+input{
+    height: 25px;
+    width: 50px;
+}
+.container{
+    position: relative;
+}
+.jugarLu{
+    cursor: pointer;
+}
+
 

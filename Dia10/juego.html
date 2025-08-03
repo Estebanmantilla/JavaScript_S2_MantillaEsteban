@@ -9,19 +9,19 @@
 <body>
     <div class="container">
 
-    <h1><strong>Puntos:</strong> <span id="puntos">100</span></p></h1>
+    <h1><strong>Puntos:</strong> <span id="puntos">100</span></h1>
 
     <label for="numeroAd">Elige tu suerte (2 - 20):</label>
     <input type="number" id="numeroAd" min="2" max="20" />
 
-    <button id="jugarLu" class="jugarLu">Play</button>
+    <button id="jugarLu" class="jugarLu" onclick="juegocartaass()">Play</button>
 
     <div id="cartasContainer">
-      <img id="carta1" src="#" alt="Carta 1" >
-      <img id="carta2" src="#" alt="Carta 2" >
+      <img id="carta1" src="#" alt="carta 1" >
+      <img id="carta2" src="#" alt="carta 2" >
     </div>
 
-    <p id="resultado"></p>
+    <p class="resultados" id="resultados"></p>
 
   </div>
   <a href="../Dia10/index.html"><button class="volver">volver</button></a>
